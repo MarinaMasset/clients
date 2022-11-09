@@ -69,6 +69,13 @@
       "societe": "test soc m",
       "ca": "123456",
       "id": ":r3:"
+    },
+    {
+      "id": ":r1:",
+      "prenom": "Marina",
+      "nom": "Masset",
+      "societe": "Freelance",
+      "ca": "1000000"
     }
   ]
 }

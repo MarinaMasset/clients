@@ -5,6 +5,7 @@ import Test from "./pages/Test";
 import PageClient from "./pages/PageClient";
 import SuppClient from "./pages/SuppClient";
 import MajClient from "./pages/MajClient";
+import PageAjout from './pages/PageAjout';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/clients/:id" name="PageClient" element={<PageClient />} />
         <Route path="/clients/supp/:id" element={<SuppClient />} />
         <Route path="/clients/modif/:id" element={<MajClient />} />
+        <Route path="/clients/ajout" element={<PageAjout />} />
         <Route path="*" element={<Home />} /> 
 
       </Routes>
